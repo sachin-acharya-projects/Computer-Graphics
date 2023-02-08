@@ -1,0 +1,19 @@
+{
+	"This will generate boilerplate for graphics": {
+        "prefix": "!!graph",
+        "body": [
+          "#include<iostream>",
+          "#include<graphics.h>",
+          "#include<cmath>",
+          "",
+          "int main(){",
+          "    int gd = DETECT, gm;",
+          "    initgraph(&gd, &gm, (char *)\"\");",
+          "    getch();",
+          "    closegraph();",
+          "    return 0;",
+          "}"
+        ],
+        "description": "This will generate boilerplate for graphics"
+    }
+}
