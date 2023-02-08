@@ -3,6 +3,7 @@
 #include<cmath>
 using namespace std;
 bool condition(int x, int y, int v) {
+    // x = x_0, y = x_n, v = x
     if (x < y) return v <= y;
     else return v >= y;
 }

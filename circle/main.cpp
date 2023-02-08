@@ -30,7 +30,7 @@ void drawCircle(int xc, int yc, int rad) {
     for (x = 0;y>=x;x++) {
         if (p < 0) p += 2 * x + 3;
         else {
-            p += 2 * (x - y) * 5;
+            p += 10 * (x - y);
             y--;
         }
         symmetry(x, y, xc, yc);
