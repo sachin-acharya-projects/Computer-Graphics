@@ -31,7 +31,7 @@ int main()
         cout << "Rectangle with rotation" << endl;
         setcolor(3);
         rectangle(x1, y1, x2, y2);
-        cout << "Angle of rotation:";
+        cout << "Angle of rotation: ";
         cin >> a;
         a = (a * 3.14) / 180;
         long xr = x1 + ((x2 - x1) * cos(a) - (y2 - y1) * sin(a));
